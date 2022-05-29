@@ -18,7 +18,7 @@ const App = () => {
   
   const renderNotConnectedContainer = () => (
     <div>
-      <img src="https://media.giphy.com/media/eSwGh3YK54JKU/giphy.gif" alt="emoji" />
+      <img src="https://media.giphy.com/media/uFkl9xGeilTpuRbNQn/giphy.gif" alt="emoji" />
 
       <div className="button-container">
         <WalletMultiButton className="cta-button connect-wallet-button" />
@@ -50,8 +50,8 @@ const App = () => {
       <HeadComponent/>
       <div className="container">
         <header className="header-container">
-          <p className="header"> 😳 Buildspace Emoji Store 😈</p>
-          <p className="sub-text">The only emoji store that accepts shitcoins</p>
+          <p className="header"> 😳 Terp's Dank Memes and Dreams 😈</p>
+          <p className="sub-text">The only dank meme store that accepts shitcoins. Paper hands Terp's selling his finest wares weary traveler, all memes guaranteed to 100x</p>
 
           {isOwner && (
             <button className="create-product-button" onClick={() => setCreating(!creating)}>
